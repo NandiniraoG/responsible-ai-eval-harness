@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "id": "prompt_injection",
+      "severity": "high",
+      "blocked_terms": [
+        "ignore previous instructions",
+        "reveal system prompt",
+        "bypass policy"
+      ]
+    },
+    {
+      "id": "sensitive_data",
+      "severity": "high",
+      "blocked_terms": [
+        "password",
+        "api key",
+        "secret token"
+      ]
+    },
+    {
+      "id": "unsupported_advice",
+      "severity": "medium",
+      "blocked_terms": [
+        "guaranteed outcome",
+        "no risk",
+        "ignore compliance"
+      ]
+    }
+  ]
+}
