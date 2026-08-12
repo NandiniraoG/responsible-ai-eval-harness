@@ -1,0 +1,15 @@
+[project]
+name = "responsible-ai-eval-harness"
+version = "0.1.0"
+description = "Responsible AI prompt and response evaluation harness."
+requires-python = ">=3.10"
+dependencies = [
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
